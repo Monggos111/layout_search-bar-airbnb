@@ -16,11 +16,11 @@ body {
 }
 
 .form {
-  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .input {
-  margin-top: 20px;
+  margin: 0 auto;
   font-family: Avenir, sans-serif;
   width: 100%;
   box-sizing: border-box;
