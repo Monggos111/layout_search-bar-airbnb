@@ -12,6 +12,7 @@
 
 body {
   margin-top: 0;
+  font-weight: 300;
 }
 
 .form {
@@ -31,8 +32,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.big__input {
-  margin-top: 20px;
+.search-form--big__input {
   height: 70px;
   background-position: 26px center;
   background-size: 19px 19px;
@@ -40,7 +40,7 @@ body {
   font-size: 16px;
 }
 
-.small__input {
+.search-form--small__input {
   height: 42px;
   background-position: 13px center;
   background-size: 11px;
@@ -49,17 +49,16 @@ body {
 }
 
 .input:focus {
-  font-family: Avenir, sans-serif;
   font-weight: bold;
   border: 1px solid rgba(225, 231, 237, 1);
   outline: none;
 }
 
-.big__input:hover {
+.search-form--big__input:hover {
   border: 1px solid rgba(113, 133, 153, 1);
 }
 
-.small__input:hover {
+.search-form--small__input:hover {
   border: 1px solid rgba(113, 133, 153, 1);
 }
 
