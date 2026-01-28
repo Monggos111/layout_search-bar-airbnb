@@ -64,11 +64,11 @@ body {
 }
 
 .input::placeholder {
-  color: rgba(113, 133, 153, 1);
+  color: #3d4e61;
   font-weight: normal;
 }
 
 .input:focus::placeholder {
-  color: rgba(61, 78, 97, 1);
+  color: #3d4e61;
   font-weight: bold;
 }
